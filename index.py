@@ -14,7 +14,7 @@ def index():
     homepage += "<p>系級：資管三B</p>"
     homepage += "<p>學號：410637340</p>"
     homepage += "<a href=/account>網頁表單輸入實例</a><br><br>"
-    homepage += "<a href=/search>課程查詢</a><br><br>"
+    homepage += "<a href=/search>選修課程查詢</a><br><br>"
     return homepage
 
 @app.route("/account", methods=["GET", "POST"])
